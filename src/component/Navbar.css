@@ -1,0 +1,74 @@
+.navbar {
+  position: relative;
+  width: 1437px;
+  height: 58px;
+  left: calc(50% - 1437px / 2 - 1.5px);
+  top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.navbar-brand {
+  margin-top: 0rem;
+  max-width: 187px;
+}
+.navbar-brand h3 {
+  width: 116px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #252b42;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.navbar-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  margin-right: 2rem !important;
+}
+.navbar-menu {
+  list-style-type: none;
+}
+.navbar-menu li {
+  display: inline-block;
+  margin: 1rem;
+}
+.navbar-menu li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.navbar-main .left li a:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+
+  /* text-color */
+
+  color: #252b42;
+}
+
+.navbar-main .right li a {
+  color: #23a6f0;
+}
+.navbar-main .right li .small {
+  font-weight: 400;
+}
+.navbar-main .right li .small span{
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+.navbar-main .right li .user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}

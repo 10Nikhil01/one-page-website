@@ -1,0 +1,117 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #ffffff;
+  height: 80vh;
+  max-width: 100vw;
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+.contact .first {
+  width: 80vh;
+  height: 40vh;
+  background: rgba( 231, 88, 88, 1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.first .img {
+  margin: 5px;
+}
+.first img {
+  width: 10em;
+  border-radius: 50%;
+}
+.first .write {
+  margin: 5px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.write h1 {
+  font-size: 3em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.write p {
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.contact .second {
+    background: rgba( 187, 187, 187, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+  width: 50vw;
+  height: 60vh;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.second h1 {
+  font-size: 3em;
+  font-weight: 100;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  color: rgb(203, 67, 67);
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+.second .input-fields {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 3px solid rgb(179, 72, 72);
+  outline: none;
+  background: transparent;
+  color: #000000;
+}
+.second .input-fields::placeholder,
+textarea::placeholder {
+  color: #252323;
+}
+.second textarea {
+  resize: none;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 3px solid rgb(179, 72, 72);
+  background: transparent;
+  outline: none;
+  overflow: hidden;
+}
+textarea::-webkit-scrollbar {
+  display: hidden;
+}
+.second .btn {
+  width: 55%;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.second .btn:hover {
+  box-shadow: 0 0 5px 5px #bcb7b7;
+  transition: 0.7s;
+}

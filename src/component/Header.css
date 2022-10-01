@@ -1,0 +1,79 @@
+.head {
+  position: relative;
+  width: 1292px;
+  height: 620px;
+  margin-left: 5rem;
+  background: linear-gradient(90deg, #96e9fb 0%, #abecd6 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20rem;
+}
+.head .heading {
+  position: absolute;
+  top: 101px;
+  left: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+    margin-top: 2rem;
+  padding: 0px;
+  width: 548px;
+  height: 316px;
+}
+.heading p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #2a7cc7;
+}
+.heading h2 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+}
+.heading .para {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 2rem;
+}
+.heading button {
+    border: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  /* light-text-color */
+
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 10px;
+
+  width: 221px;
+  height: 62px;
+
+  /* primary-color */
+
+  background: #23a6f0;
+  border-radius: 5px;
+}
+.head .pic {
+    margin-left: 42rem;
+}
